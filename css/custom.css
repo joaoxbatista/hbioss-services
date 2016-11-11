@@ -1,0 +1,137 @@
+.form-login{
+    padding: 70px 0;
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, 1)), url(../imgs/1.jpg) center center no-repeat;
+}
+
+.form-login h4{
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.form-login .btn-large{
+    margin-left: 10px;
+}
+
+
+/*Services Div*/
+.services{
+    padding: 80px 0;
+    background: #fff;
+}
+
+.services h1{
+    font-weight: 300;
+    font-size: 2em;
+    margin: 0 auto;
+    display: inline-block;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.services h1::before{
+    content: '';
+    display: block;
+    width:200px;
+    position: relative;
+    height: 1px;
+    background-color: #999;
+    left: 0px;
+    bottom: -40px;
+}
+
+.services img{
+    opacity: .8;
+    transition: all .4s;
+}
+
+.services img:hover{
+    opacity: 1;
+    transition: all .4s;
+}
+
+/*Thr3ap Div*/
+.thr3ap{
+    min-height: 450px;
+    background:  url(../imgs/wp-thr3ap.jpg);
+    color: #fff;
+    padding: 50px 0;
+    border:2px solid #fff;
+}
+
+.thr3ap .bg-image{
+    min-height: 450px;
+ 
+}
+
+.thr3ap .bg-image img{
+   margin-top: 60px;
+}
+
+/*Gremily Div*/
+.gremily{
+    min-height: 450px;
+    background: url(../imgs/wp-gremily.jpg);
+    color: #fff;
+    padding: 50px 0;
+    border:2px solid #fff;
+}
+
+.gremily .bg-image img{
+   margin-top: 60px;
+}
+
+/*Admirada Div*/
+.admirada{
+    min-height: 450px;
+    background: url(../imgs/wp-admirada.jpg);
+    color: #fff;
+    padding: 50px 0;
+    border:2px solid #fff;
+}
+
+.admirada .bg-image{
+  
+    min-height: 450px;
+}
+
+.admirada .bg-image img{
+   margin-top: 60px;
+}
+
+/*Sempre Div*/
+.sempre{
+    min-height: 450px;
+    background: url(../imgs/wp-sempre.jpg);
+    color: #fff;
+    padding: 50px 0;
+    text-align: right;
+    border:2px solid #fff;
+}
+
+.sempre .bg-image{
+    min-height: 450px;
+}
+
+.sempre .bg-image img{
+   margin-top: 60px;
+}
+
+/*Meuike Div*/
+.meulike{
+    min-height: 450px;
+    background: url(../imgs/wp-meulike.jpg) ;
+    color: #fff ;
+    padding: 50px 0;
+    text-align: left;
+     border:2px solid #fff;
+}
+
+.meulike .bg-image{
+    min-height: 450px;
+    background-size: cover;
+    background-repeat: center center no-repeat;
+}
+
+.meulike .bg-image img{
+   margin-top: 60px;
+}
