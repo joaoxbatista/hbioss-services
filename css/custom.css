@@ -1,3 +1,13 @@
+@keyframes changecolor{
+    from{
+        background: #fff;
+    }
+    
+    to{
+        background: #000;
+    }
+}
+
 .form-login{
     padding: 70px 0;
     background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, 1)), url(../imgs/1.jpg) center center no-repeat;
@@ -51,13 +61,39 @@
 
 /*Thr3ap Div*/
 .thr3ap{
-    min-height: 450px;
-    background:  url(../imgs/wp-thr3ap.jpg);
+    min-height: 200px;
+    background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.2)), url(../imgs/wp-thr3ap.jpg);
+    background-size: cover;
+    background-repeat: center center no-repeat;
+    background-attachment: fixed;
     color: #fff;
-    padding: 50px 0;
-    border:2px solid #fff;
+    padding: 18px 0;
 }
 
+.thr3ap-content{
+    padding: 50px 0;
+    color: #888;
+    background-color: #000;
+    position: relative;
+}
+
+.thr3ap-content::before{
+    content: '';
+    height: 60px;
+    width: 60px;
+    background: #000;
+    display: block;
+    position: absolute;
+    border: 4px solid #fff;
+    top: -30px;
+    left: calc(50% - 30px);
+    border-radius: 50%;
+    animation-name: changecolor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
 .thr3ap .bg-image{
     min-height: 450px;
  
@@ -70,7 +106,10 @@
 /*Gremily Div*/
 .gremily{
     min-height: 450px;
-    background: url(../imgs/wp-gremily.jpg);
+    background: linear-gradient(rgba(100,100,0,.1), rgba(0,0,0,0.4)),url(../imgs/wp-gremily.jpg);
+    background-size: cover;
+    background-repeat: center center no-repeat;
+    background-attachment: fixed;
     color: #fff;
     padding: 50px 0;
     border:2px solid #fff;
@@ -83,7 +122,10 @@
 /*Admirada Div*/
 .admirada{
     min-height: 450px;
-    background: url(../imgs/wp-admirada.jpg);
+    background: linear-gradient(rgba(100,0,100,.2), rgba(0,0,0,0.4)), url(../imgs/wp-admirada.jpg);
+    background-size: cover;
+    background-repeat: center center no-repeat;
+    background-attachment: fixed;
     color: #fff;
     padding: 50px 0;
     border:2px solid #fff;
@@ -101,7 +143,10 @@
 /*Sempre Div*/
 .sempre{
     min-height: 450px;
-    background: url(../imgs/wp-sempre.jpg);
+    background: linear-gradient(rgba(0,255,100,.3), rgba(0,170,250,1)), url(../imgs/wp-sempre.jpg);
+    background-size: cover;
+    background-repeat: center center no-repeat;
+    background-attachment: fixed;
     color: #fff;
     padding: 50px 0;
     text-align: right;
@@ -121,6 +166,9 @@
     min-height: 450px;
     background: url(../imgs/wp-meulike.jpg) ;
     color: #fff ;
+    background-size: cover;
+    background-repeat: center center no-repeat;
+    background-attachment: fixed;
     padding: 50px 0;
     text-align: left;
      border:2px solid #fff;
