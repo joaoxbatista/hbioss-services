@@ -1,0 +1,104 @@
+@import ../libs/bootstrap/stylesheets/bootstrap/variables
+@import ../libs/bootstrap/stylesheets/bootstrap/mixins
+@import ../components/buttons
+@import ../components/inputs
+
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Raleway')
+
+body
+    font-family: 'Raleway', sans-serif
+header
+    background: linear-gradient(rgba(255,255,255,.8), rgba(255, 255, 2555,.0)), url(../../imgs/hbioss.jpg)
+    background-size: cover
+    background-repeat: center center no-repeat
+    min-height: 500px
+    padding-bottom: 30px
+    
+    .logo
+        margin: 20px 20px
+    .message
+       
+        @include make-md-column(6)
+        
+        margin-top: 30px  
+        color: $hbioss3
+        .btn-hbioss-green
+            margin-top: 5px
+        p
+            text-align: justify
+            line-height: 25px
+    .login-form
+        @include make-md-column-offset(2)
+        @include make-md-column(4)
+
+        margin-top: 50px  
+        .form-group
+            .form-control: $hbioss3
+            label
+                color: $hbioss3
+                font-weight: 400
+                letter-spacing: 1px
+            
+.hbioss-banner, .thr3ap-banner, .gremily-banner, 
+    
+.admirada-banner, .sempre-banner, .meulike-banner
+    min-height: 415px
+    
+.hbioss-banner
+    padding: 50px 0
+    color: $hbioss3
+    p
+        text-align: justify
+        line-height: 25px
+        padding: 15px 0
+
+.hbioss-desc
+    background: url(../../imgs/2.jpg)
+    background-size: cover
+    background-repeat: center center no-repeat
+    min-height: 400px
+    padding: 50px
+    color: $hbioss3
+    h1
+       
+        font-size: 3.5em
+        text-align: center
+    p
+        line-height: 30px
+        font-size: 1.4em
+        text-align: justify
+
+.thr3ap-banner
+    background: url(../../imgs/4.jpg)
+    background-size: cover
+    background-repeat: center center no-repeat
+    color: #fff
+    padding: 50px 0
+
+.gremily-banner
+    background: url(../../imgs/wp-gremily.jpg)
+    background-size: cover
+    background-repeat: center center no-repeat
+    color: #fff
+    padding: 50px 0
+
+.admirada-banner
+    background: url(../../imgs/wp-admirada.jpg)
+    background-size: cover
+    background-repeat: center center no-repeat
+    color: #fff
+    padding: 50px 0
+
+.sempre-banner
+    background: url(../../imgs/wp-sempre.jpg)
+    background-size: cover
+    background-repeat: center center no-repeat
+    color: #fff
+    padding: 50px 0
+
+.meulike-banner
+    background: url(../../imgs/wp-meulike.jpg)
+    background-size: cover
+    background-repeat: center center no-repeat
+    color: #fff
+    padding: 50px 0
